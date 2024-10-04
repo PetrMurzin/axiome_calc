@@ -1,0 +1,16 @@
+{
+  "calculatorInterestCompound": "Compound Interest Calculator",
+  "initialInvestment": "Initial balance",
+  "interestRate": "Interest rate",
+  "commissionDelegation": "Commission delegation",
+  "commissionAwards": "Commission awards",
+  "Calculate": "Calculate",
+  "reinvestmentPeriod": "Reinvestment period",
+  "primary": "Primary",
+  "enhanced": "Enhanced",
+  "days": "Days",
+  "results": "Results",
+  "delegatedMonth": "Delegated by month",
+  "month": "Month",
+  "periods": "Period"
+}

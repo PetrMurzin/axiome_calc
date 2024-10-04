@@ -1,0 +1,16 @@
+{
+  "calculatorInterestCompound": "Калькулятор процентов",
+  "initialInvestment": "Сумма депозита",
+  "interestRate": "Ставка",
+  "commissionDelegation": "Комиссия делегирование",
+  "commissionAwards": "Комиссия начисление награды",
+  "Calculate": "Рассчитать",
+  "reinvestmentPeriod": "Период реинвестирования",
+  "primary": "Основной",
+  "enhanced": "Улучшенный",
+  "days": "Дней",
+  "results": "Результаты",
+  "delegatedMonth": "Делегировано по месяцам",
+  "month": "Месяц",
+  "periods": "Период"
+}
