@@ -1,6 +1,7 @@
 {
   "calculatorInterestCompound": "Compound Interest Calculator",
   "initialInvestment": "Initial balance",
+  "delegated": "delegated",
   "interestRate": "Interest rate",
   "commissionDelegation": "Commission delegation",
   "commissionAwards": "Commission awards",

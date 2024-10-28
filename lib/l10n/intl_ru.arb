@@ -1,6 +1,7 @@
 {
   "calculatorInterestCompound": "Калькулятор процентов",
   "initialInvestment": "Сумма депозита",
+  "delegated": "Делегировано",
   "interestRate": "Ставка",
   "commissionDelegation": "Комиссия делегирование",
   "commissionAwards": "Комиссия начисление награды",

@@ -19,7 +19,7 @@ class _ButtonExtendsState extends State<ButtonExtends> {
     final theme = Theme.of(context);
     return SizedBox(
       width: double.infinity,
-      height: 50,
+      height: 45,
       child: FilledButton(
 
         onPressed: widget.onPressed,

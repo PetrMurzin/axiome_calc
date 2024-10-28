@@ -75,6 +75,16 @@ class _CalculatorInterestScreenState extends State<CalculatorInterestScreen> {
                   },
                 ),
                 InputValue(
+                  topText: S.of(context).delegated,
+                  labelText: '0.00',
+                  suffixText: 'AXM  ',
+                  onChanged: (value) {
+                    value = value.replaceAll(',', '.');
+                    isNotNum(value);
+                    ProcessCalculate.delegated = double.tryParse(value) ?? 0;
+                  },
+                ),
+                InputValue(
                   topText: S.of(context).interestRate,
                   labelText: '20',
                   suffixText: '%   ',

@@ -27,13 +27,12 @@ class InputValue extends StatelessWidget {
         const SizedBox(height: 8),
         SizedBox(
           width: double.infinity,
-          height: 50,
+          height: MediaQuery.of(context).size.height * 0.05,
           child: TextField(
             onChanged: onChanged,
             style: theme.textTheme.bodyMedium,
             decoration: InputDecoration(
               floatingLabelBehavior: FloatingLabelBehavior.never,
-              alignLabelWithHint: true,
               filled: true,
               fillColor: const Color(0XFFF3F0F7),
               // contentPadding: ,

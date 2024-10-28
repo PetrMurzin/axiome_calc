@@ -70,6 +70,16 @@ class S {
     );
   }
 
+  /// `delegated`
+  String get delegated {
+    return Intl.message(
+      'delegated',
+      name: 'delegated',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Interest rate`
   String get interestRate {
     return Intl.message(

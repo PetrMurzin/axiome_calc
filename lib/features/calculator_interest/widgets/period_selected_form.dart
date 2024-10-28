@@ -22,10 +22,10 @@ class _PeriodSelectedFormState extends State<PeriodSelectedForm> {
           S.of(context).reinvestmentPeriod,
           style: theme.textTheme.bodyMedium,
         ),
-        const SizedBox(height: 8,),
+        const SizedBox(height: 8),
         SizedBox(
           width: double.infinity,
-          height: 50,
+          height: 45,
           child: FormField<String>(
             builder: (FormFieldState<String> state) {
               return InputDecorator(
@@ -46,7 +46,6 @@ class _PeriodSelectedFormState extends State<PeriodSelectedForm> {
                 child: DropdownButtonHideUnderline(
                   child: DropdownButton<String>(
                     value: ProcessCalculate.periodsSelectedValue,
-                    isDense: true,
                     onChanged: (newValue) {
                       setState(() {
                         ProcessCalculate.periodsSelectedValue = newValue!;

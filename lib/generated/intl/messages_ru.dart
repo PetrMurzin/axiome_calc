@@ -30,6 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "commissionDelegation":
             MessageLookupByLibrary.simpleMessage("Комиссия делегирование"),
         "days": MessageLookupByLibrary.simpleMessage("Дней"),
+        "delegated": MessageLookupByLibrary.simpleMessage("Делегировано"),
         "delegatedMonth":
             MessageLookupByLibrary.simpleMessage("Делегировано по месяцам"),
         "enhanced": MessageLookupByLibrary.simpleMessage("Улучшенный"),

@@ -58,7 +58,7 @@ class _DelegateCountingScreenState extends State<DelegateCountingScreen> {
                       itemBuilder: (BuildContext context, int index) {
                         return Container(
                           width: double.infinity,
-                          height: 50,
+                          height: MediaQuery.of(context).size.height * 0.05,
                           decoration: const BoxDecoration(
                             color: Color(0XFFF3F0F7),
                             borderRadius:

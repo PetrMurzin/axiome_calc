@@ -8,6 +8,7 @@ abstract class ProcessCalculate {
   static bool isPrimary = true;
   static bool isNotNum = true;
   static double balance = 0;
+  static double delegated = 0;
   static double bet = 20;
   static double feeDelegate = 0.99;
   static double feeReward = 0.3;
@@ -20,7 +21,7 @@ abstract class ProcessCalculate {
     delegateMap['periods'].clear();
     delegations.clear();
     int periodInt = int.parse(ProcessCalculate.periodsSelectedValue);
-    double delegate = 0;
+    double delegate = delegated;
     double delegateNew = 0;
     double balanceNew = balance;
     double fee = feeReward + feeDelegate;
@@ -29,7 +30,7 @@ abstract class ProcessCalculate {
 
     for (int i = 0; i < period; i++) {
       if (balanceNew > fee) {
-        delegate = (balanceNew - fee) * 0.85;
+        delegate = (balanceNew - fee) * 0.85 + delegate;
         balanceNew = 0;
       }
       balanceNew = delegate * bet / 100 / 30 * periodInt + balanceNew;
@@ -53,8 +54,7 @@ abstract class ProcessCalculate {
     double delegateNew = 0;
     double balanceNew = 0;
     double fee = feeReward + feeDelegate;
-    double delegate = (balance - fee) * 0.85;
-
+    double delegate = (balance - fee) * 0.85 + delegated;
     for (int i = 0; i <= 12; i++) {
       delegations.add('0');
       delegateMap['periods'].add('0');
